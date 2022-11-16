@@ -81,6 +81,9 @@ button:hover, button:focus {
     color: var(--footer-contact-color);
 }
 
+.footer-contacts-link:hover, .footer-contacts-link:focus {
+    color: var(--accent-color);   
+}
 .footer-address-link:hover, .footer-address-link:focus {
     color: var(--accent-color);
 }
