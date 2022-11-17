@@ -34,9 +34,13 @@ button:hover, button:focus {
 .navigation-link {
     font-weight: 500;
     font-size:14px;
-    line-height: cal(16/14);
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+}
+
+.navigation-link:hover, .navigation-link:focus {
+    color: var(--accent-color);
 }
 
 .navigation-link-current-page {
@@ -46,14 +50,14 @@ button:hover, button:focus {
 .contacts-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: cal(14/16);
+    line-height: calc(14/16);
     color: var(--secondary-text-color);
 }
 
 .contacts-link:hover, .contacts-link:focus {
     font-weight: 500;
     font-size: 14px;
-    line-height: cal(14/16);
+    line-height: calc(14/16);
     color: var(--accent-color);
 }
 
@@ -67,17 +71,17 @@ button:hover, button:focus {
     color: var(--white-text-color);
 }
 
-.footer-address-link {
-    font-weight: 400;
+.footer-address-link {   
     font-size: 14px;
     line-height: cal(24/14);
+    letter-spacing: 0.03em;
     color: var(--white-text-color);
 }
 
-.footer-contacts-link {
-    font-weight: 400;
+.footer-contacts-link {       
     font-size: 14px;
-    line-height: cal(24/14);
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
     color: var(--footer-contact-color);
 }
 
@@ -106,7 +110,7 @@ button:hover, button:focus {
 .solutions-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: cal(60/44);
+    line-height: calc(60/44);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -114,13 +118,14 @@ button:hover, button:focus {
 }
 
 .studio-button {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
-    line-height: cal(30/16);
+    line-height: calc(30/16);
     text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
-    color: var(--white-text-color);
+    color: var(--white-text-color);    
 }
 
 .studio-button:hover, .studio-button:focus {
@@ -132,50 +137,64 @@ button:hover, button:focus {
     font-size: 36px;
     line-height: cal(42/36);
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;    
     color: var(--main-text-color);
 }
 
 .features-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: cal(16/14);
+    line-height: calc(16/14);
     text-transform: uppercase;
     color: var(--main-text-color);    
 }
 
-.features-description {
-    font-weight: 400;
+.features-description {    
     font-size: 14px;
-    line-height: cal(24/14);
+    line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
 
-.employees-name {
-    font-size: 16px;
-    line-height: cal(19/16);
+.section-about-our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: cal(42/36);
     text-align: center;
     letter-spacing: 0.03em;
-
+    color: var(--main-text-color);
 }
 
-.employees-position {
-    font-weight: 400;
+.section-about-our-team-style {    
+    background-color: #f5f4fa;
+}
+
+.employees-name {
+    font-weight: 500;
     font-size: 16px;
-    line-height: cal(19/16);
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.employees-position {    
+    font-size: 16px;
+    line-height: calc(19/16);
     text-align: center;
 }
 
 /* CSS for Portfolio page */
 
-.portfolio-buttons {
+.portfolio-buttons {   
+    font-family: 'Roboto';    
     font-weight: 500;
     font-size: 16px;
-    line-height: cal(26/16);
+    line-height: calc(26/16);      
     text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #f5f4fa;
     color: var(--main-text-color);    
-}
+    }
 
 .portfolio-buttons:hover, .portfolio-buttons:focus {
     background-color: var(--accent-color);
@@ -185,13 +204,12 @@ button:hover, button:focus {
 .project-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: cal(36/18);
+    line-height: calc(36/18);
     letter-spacing: 0.06em;
 }
 
-.project-type {
-    font-weight: 400;
+.project-type {    
     font-size: 16px;
-    line-height: cal(30/16);
+    line-height: calc(30/16);
     color: var(--main-text-color);
 }
